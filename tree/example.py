@@ -58,6 +58,12 @@ root.left.right = TreeNode(5)
 root.right.left = TreeNode(6)
 root.right.right = TreeNode(7)
 
+root.left.left.left = TreeNode(8)
+root.left.left.right = TreeNode(9)
+root.left.right.left = TreeNode(10)
+root.left.right.right = TreeNode(11)
+
+
 print("DFS traversal:")
 root.dfs_recursive(root) # Outputs: 1, 2, 3
 
